@@ -12,6 +12,7 @@ class ParentComponent extends Component {
         this.setState({
           [event.target.name]: event.target.value
         })
+        debugger
       }
     // handleFirstNameChange = event => {
     //     this.setState({
